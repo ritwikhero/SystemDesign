@@ -1,4 +1,4 @@
-package org.example.FacrtoryDesignPattern;
+package org.example.FacrtoryDesignPattern.SimpleFactory;
 
 interface Burger{
     void prepare();
