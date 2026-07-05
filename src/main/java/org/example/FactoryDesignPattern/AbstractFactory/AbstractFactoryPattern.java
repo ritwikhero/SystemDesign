@@ -1,4 +1,4 @@
-package org.example.FacrtoryDesignPattern.AbstractFactory;
+package org.example.FactoryDesignPattern.AbstractFactory;
 
 //interface for Burger / product
 interface Burger{
