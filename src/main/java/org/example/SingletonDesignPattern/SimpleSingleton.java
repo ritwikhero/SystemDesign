@@ -15,8 +15,8 @@ public class SimpleSingleton {
     }
 
     public static void main(String[] args) {
-        SimpleSingleton s1 = new SimpleSingleton();
-        SimpleSingleton s2 = new SimpleSingleton();
+        SimpleSingleton s1 = SimpleSingleton.getInstance();
+        SimpleSingleton s2 = SimpleSingleton.getInstance();
 
         System.out.println(s1 == s2);
     }
